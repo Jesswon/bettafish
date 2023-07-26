@@ -1,0 +1,174 @@
+html, body {
+  background: black;
+  margin: 0;
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2.5% 2.5% 0;
+	background: beige;
+	line-height: 1.8;
+}
+
+h1 {
+	font: 1em Verdana, Geneva, sans-serif;
+  margin-top: none;
+	margin-bottom: 2em;
+	color: black;
+}
+
+/* subheading */
+h2 {
+	font: 4.2em Forte, serif;
+	margin-bottom: .2em;
+  text-align: center;  
+  color: black;
+}
+
+h3 { 
+  font: 1.5em Garamond, serif;
+	margin-bottom: .2em;
+	color: rgb(83, 104, 138);
+  font-weight: bold;
+}
+
+h4 {
+  font: 1em Verdana, Geneva, sans-serif;
+	margin-bottom: .2em;
+	color: black;  
+  font-weight: bold;
+}
+
+p {
+  font: 1em Corbel, serif;
+	margin-bottom: 1em;
+}
+
+.betta{
+    background-color: #E3D9D7;
+    outline: solid 3px black;
+    text-align: center;
+    width: 60%;
+}
+
+.facts{
+  padding: 1em;
+	background: rgb(83, 104, 138);
+	color: black;
+  border-radius: 8px;
+	margin-bottom: 1em;  
+}
+
+.tankmates{
+    background-color: #E3D9D7;
+    outline: solid 3px black;
+    text-align: center;
+    width: 50%;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.sidebyside {
+  display: flex;
+}
+
+.pictures {
+  padding: 3px;
+}
+
+.spelling-mistake{
+  text-decoration-line:underline;
+  text-decoration-style:wavy;
+  text-decoration-color:red;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+  /*position: absolute*/
+}
+
+#navbar2 ul {
+  margin: 0;
+  padding: 0;
+  background-color: none;
+  text-align: left;
+}
+
+#navbar3 ul {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  text-align: left;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  font: 1em Lucida-Console, monospace;
+  text-transform: uppercase;
+  display: inline-block;
+  color: beige;
+  padding: 25px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  background-color: rgb(120, 97, 55);
+}
+
+#navbar2 li a {
+  font: 1em Lucida-Console, monospace;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#navbar3 li a {
+  font: 1em Lucida-Console, monospace;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.group button{
+  cursor: pointer;
+  border: solid black 1px;
+}
+
+aside {
+	padding: 1em;
+	background: rgb(83, 104, 138);
+	color: black;
+  border-radius: 8px;
+	margin-bottom: 1em;
+}
+
+aside h4 {
+	color: black;
+}
+
+footer {
+	border-top: 1px solid gray;
+	text-align: center;
+	font-size: .9em;
+	line-height: 4em;
+	margin-top: 1em;
+}
+
